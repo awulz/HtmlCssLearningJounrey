@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>Drogenumfrage</title>
+	<link type="text/css" rel="stylesheet" href="formstyle.css">
+</head>
+
+<body>
+<form action="mailto:abodienst@zeitschriften.ch" method="post" enctype="text/plain">
+<table>
+	<tr>
+		<td rowspan="11" width="90" class="seite">&nbsp;</td>
+		<td colspan="2"><h1>Drogenumfrage</h1></td>
+		<td rowspan="11" width="90" class="seite">&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="160" class="spalte2">Nachname:</td>
+		<td width="290"><input type="text" name="Nachname" size="28"></td>
+	</tr>
+	<tr>
+		<td class="spalte2">Vorname:</td>
+		<td><input type="text" name="Vorname" size="28"></td>
+	</tr>
+	<tr>
+		<td class="spalte2">Strasse / Nr.:</td>
+		<td><input type="text" name="Strasse" size="28">&nbsp;<input type="number" name="Nummer"></td>
+	</tr>
+	<tr>
+		<td class="spalte2">Postleitzahl /Ort:</td>
+		<td><input type="number" name="PLZ" maxlength="4">&nbsp;<input type="text" name="Ort" size="28"></td>
+	</tr>
+	<tr>
+		<td class="spalte2">Drogenkonsum:</td>
+		<td><p>Welche Drogen hast Du schon einmal konsumiert?</p>
+			<input type="checkbox" name="Drogen" value="Cannabis">Cannabis<br>
+			<input type="checkbox" name="Drogen" value="Alkohol">Alkohol<br>
+			<input type="checkbox" name="Drogen" value="Kokain">Kokain<br>
+			<input type="checkbox" name="Drogen" value="Amphetamine">Amphetamine</td>
+	</tr>
+	<tr>
+		<td class="spalte2">H&auml;ufigkeit:</td>
+		<td><select size="1" name="Einnahme">
+				<option value="1 Mal">1 Mal</option>
+				<option value="bis 5 Mal" selected>2 -5 Mal</option>
+				<option value="regelmaessig">regelm&auml;ssig</option>
+				<option value="taeglich">t&auml;glich</option>
+			</select></td>
+	</tr>	
+	<tr>
+		<td class="spalte2">Alter:</td>
+		<td><input type="radio" name="Alter" value="12-15">12 - 15<br>
+			<input type="radio" name="Alter" value="16-19">16 - 19<br>
+			<input type="radio" name="Alter" value="20-23">20 - 23<br></td>
+	</tr>
+	<tr>
+		<td class="spalte2">Kommentar:</td>
+		<td><textarea cols="32" rows="4" name="Kommentar"></textarea>
+	<tr>
+		<td><input type="submit" class="schalter"></td>
+		<td><input type="reset" class="schalter"></td>
+	</tr>
+	<tr>
+		<td colspan="2">Vorname Name, Datum</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
